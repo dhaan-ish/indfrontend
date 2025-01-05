@@ -47,6 +47,7 @@ export default function Home() {
           
           // Handle file upload separately if needed
         }]);
+        console.log(data);
       if (error) throw error;
       setSuccess('Company registered successfully!');
       setCompanyName('');
